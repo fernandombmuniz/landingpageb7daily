@@ -4,11 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'JetBrains Mono', sans-serif;
 }
 header {
-  padding-top: 45px;
+  padding-top: 4.5rem;
 }
 .main {
   background: rgb(56, 61, 80);
@@ -19,7 +23,7 @@ header {
   );
 }
 .container {
-  max-width: 1070px;
+  max-width: 107rem;
   margin: auto;
   color: #fff;
 }
@@ -30,39 +34,39 @@ header {
   flex: 1;
 }
 .bannerArea .leftside h1 {
-  font-size: 42px;
+  font-size: 4.2rem;
   font-weight: bold;
-  line-height: 50px;
-  margin: 80px 0 20px 0;
+  line-height: 4.5rem;
+  margin: 8rem 0 4rem 0;
 }
 .bannerArea .leftside .subtitle {
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
   color: #999;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .bannerArea .leftside .form {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .bannerArea .leftside .form input {
-  width: 300px;
-  padding: 0 10px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 30rem;
+  padding: 0 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.4);
   background: transparent;
-  height: 40px;
+  height: 4rem;
   outline: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 .bannerArea .leftside .form button {
-  height: 40px;
+  height: 4rem;
   border: 0;
   background-color: #0071b7;
   color: #fff;
-  font-size: 14px;
-  margin-left: 10px;
-  padding: 0 20px;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  padding: 0 2rem;
   cursor: pointer;
 }
 .bannerArea .leftside .form button:hover {
@@ -70,10 +74,10 @@ header {
   transition: 0.2s;
 }
 .bannerArea .leftside .iconsTechs {
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 .bannerArea .leftside .iconsTechs img {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .bannerArea .rightside {
   flex: 1;
@@ -89,29 +93,29 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #eaeef1;
+  border-bottom: 0.2rem solid #eaeef1;
 }
 .info-text {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   color: #c2c8cb;
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 .info-circle {
-  width: 6px;
-  height: 6px;
+  width: 0.6rem;
+  height: 0.6rem;
   background-color: #c2c8cb;
   border-radius: 50%;
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 /* Section info */
 .inst-container {
   margin: auto;
-  max-width: 900px;
-  padding: 70px 0;
+  max-width: 90rem;
+  padding: 7rem 0;
 }
 .inst-item {
-  border-left: 3px solid #ecf0f3;
+  border-left: 0.3rem solid #ecf0f3;
   display: flex;
 }
 .inst-item:last-child {
@@ -119,78 +123,75 @@ header {
 }
 .inst-circle {
   border-radius: 50%;
-  width: 17px;
-  height: 17px;
+  width: 1.7rem;
+  height: 1.7rem;
   background-color: #0071b7;
-  margin-left: -9px;
+  margin-left: -0.9rem;
 }
 .inst-text {
   flex: 1;
-  margin-left: 50px;
+  margin-left: 5rem;
 }
 .inst-text h2 {
-  font-size: 20px;
+  font-size: 2rem;
   color: #000000;
-  margin: -10px 0 20px 0;
+  margin: -1rem 0 2rem 0;
 }
 .inst-text p {
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
   color: #777;
-  margin-bottom: 70px;
-}
-.inst-item:last-child p {
-  margin: 0;
+  margin-bottom: 7rem;
 }
 
 /* Section CTA */
 .cta {
-  background-color: #1D2437;
-  border-bottom: 2px solid #333;
+  background-color: #1d2437;
+  border-bottom: 0.2rem solid #333;
 }
 .cta-container {
   display: flex;
   margin: auto;
-  max-width: 800px;
-  padding: 100px 0;
-  color: #FFF;
+  max-width: 80rem;
+  padding: 10rem 0;
+  color: #fff;
 }
 .cta-left {
   flex: 1;
-  margin-left: 30px;
+  margin-left: 4rem;
 }
 .cta-right {
   flex: 1;
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 .cta-left h2 {
-  font-size: 40px;
-  margin: 0;
+  font-size: 3rem;
+  margin-bottom: 1.1rem;
 }
 .cta-left p {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
   color: #777;
 }
 .cta-right input {
   width: 100%;
-  height: 40px;
-  padding: 0 10px;
-  margin-bottom: 20px;
+  height: 4rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  font-size: 14px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.4);
+  font-size: 1.4rem;
   outline: none;
   color: #fff;
 }
 .cta-right button {
   width: 100%;
-  height: 40px;
+  height: 4rem;
   border: 0;
   background-color: #0071b7;
   color: #fff;
-  font-size: 14px;
-  padding: 0 20px;
+  font-size: 1.4rem;
+  padding: 0 2rem;
   cursor: pointer;
 }
 .cta-right button:hover {
@@ -200,47 +201,47 @@ header {
 
 /* Footer */
 footer {
-  background-color: #1D2437;
-  color: #FFF;
+  background-color: #1d2437;
+  color: #fff;
 }
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding: 40px 0;
-  max-width: 1070px;
+  padding: 4rem 0;
+  max-width: 107rem;
 }
 .footer-right {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #777;
   text-align: right;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 .footer-right a {
   color: #777;
   text-decoration: none;
 }
-.footer-right a:hover { 
+.footer-right a:hover {
   text-decoration: underline;
 }
 
 /* Responsividade */
-@media (max-width: 1030px) {
+@media (max-width: 103rem) {
   .main .container {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
   footer .footer-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 90rem) {
   .bannerArea {
     flex-direction: column-reverse;
   }
   .bannerArea .rightside {
-    height: 300px;
+    height: 30rem;
     flex: none;
     background-size: auto 100%;
     background-position-x: center;
@@ -259,11 +260,10 @@ footer {
   }
   .bannerArea .leftside .form input {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   .bannerArea .leftside .form button {
     width: 100%;
-    margin: 0;
   }
   .bannerArea .leftside .iconsTechs {
     text-align: center;
@@ -272,25 +272,21 @@ footer {
     display: none;
   }
   .instructions .inst-item {
-    margin: 0 50px;
+    margin: 0 5rem;
   }
   .cta .cta-container {
     flex-direction: column;
-    margin: 0 30px;
-  }
-  .cta .cta-left,
-  .cta .cta-right {
-    margin: 0;
+    margin: 0 3rem;
   }
   .cta .cta-left {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
   footer .footer-container {
     flex-direction: column;
   }
   footer .footer-left {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
   footer .footer-right {
     text-align: center;
